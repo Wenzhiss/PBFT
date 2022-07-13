@@ -1,3 +1,3 @@
 # PBFT
 knowledge about pbft
-![image](https://user-images.githubusercontent.com/82591506/178739034-4b1ee78d-60ef-4a0b-9116-a2a598c74e12.png)
+![image](https://user-images.githubusercontent.com/82591506/178739325-81a80f71-d50a-4864-9014-4c98e4795043.png)
