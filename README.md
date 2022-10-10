@@ -38,7 +38,7 @@ Knowledge about pbft.
 &emsp;&emsp;(2)节点当前处于视图v中;  
 &emsp;&emsp;(3)h<=n<=H，H和h代表序号n的高低水位;  
 &emsp;&emsp;(4)前3条验证通过，将收到的消息写入log;  
-&emsp;&emsp;(5)如果收到正确的 PREPARE 消息大于等于 **2f+1**，就进入 COMMIT 阶段，广播 **<COMMIT,v,n,d,i>**。  
+&emsp;&emsp;(5)如果收到正确的 PREPARE 消息大于等于 **2f**，就进入 COMMIT 阶段，广播 **<COMMIT,v,n,d,i>**。  
 ### REPLY
 &emsp;&emsp;主节点(primary)、副节点(backups)收到 commit 消息，进行验证：  
 &emsp;&emsp;(1)检查 COMMIT 消息签名是否正确、消息摘要d和消息m相匹配：d=hash(m);  
